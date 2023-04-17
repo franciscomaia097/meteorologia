@@ -26,6 +26,18 @@
   transition: 0.5s ease-in-out;
 }
 
+@media only screen and (max-width: 1326px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .container {
+    width: 90%;
+  }
+}
+
 .erro {
   font-size: 25px;
 }
